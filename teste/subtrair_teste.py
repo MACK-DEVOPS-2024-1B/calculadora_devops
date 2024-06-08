@@ -1,7 +1,8 @@
 import unittest
+import sys
+sys.path.append('/workspaces/calculadora_devops/')
 
-def subtrair(a, b):
-    return a - b
+from src.subtrair import subtrair
 
 class TestSubtrair(unittest.TestCase):
 
