@@ -2,7 +2,7 @@ import unittest
 import sys
 sys.path.append('/workspaces/calculadora_devops/')  # Adicione o diretório onde o arquivo somar.py está localizado
 
-from somar import somar
+from src.somar import somar
 
 class TestSomar(unittest.TestCase):
     def test_somar(self):
